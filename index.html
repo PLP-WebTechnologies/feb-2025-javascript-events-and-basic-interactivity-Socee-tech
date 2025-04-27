@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Javascript event handling and interactive elements</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Interactive event handling and interactive elements</h1>
+            <p>You should explore all the cools interactions</p>
+        </header>
+
+        <section class="event-handling">
+            <h2>1. Event handling</h2>
+            <button id="clickbtn">Click me</button>
+            <button id="hoverBtn">Hover over me</button>
+            <input type="text" id="keypressinput" placeholder="Type something...">
+            <div id="secretarea">Double-click or long press me!</div>
+        </section>
+
+        <section class="interactive-elements">
+            <h2>2. Interactive elements</h2>
+            <button id="changebtn">Change my text</button>
+
+            <div class="slideshow-container">
+                <img id="slideimage" src="images/1.webp" alt="slide show image">
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn" data-tab="tab1">Tab 1</button>
+                <button class="tab-btn" data-tab="tab2">Tab 2"></button>
+                <div id="tab1" class="tab-content">This is a tab 1 content.</div>
+                <div id="tab2" class="tab-content">This is a tab 2 content.</div>
+            </div>
+        </section>
+
+        <section class="form-validation">
+            <h2>3. Form validation</h2>
+            <form id="myform">
+                <input type="text" id="email" placeholder="Enter your email...">
+                <input type="password" id="password" placeholder="Enter your password...">
+                <button type="submit">Submit</button>
+                <p id="formmessage"></p>
+            </form>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>
+
